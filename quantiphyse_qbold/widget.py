@@ -30,7 +30,7 @@ class QBoldWidget(QpWidget):
                           desc="Bayesian modelling for quantitative BOLD MRI", **kwargs)
 
     def init_ui(self):
-        vbox = QtGui.QVBoxLayout()
+        vbox = QtWidgets.QVBoxLayout()
         self.setLayout(vbox)
 
         title = TitleWidget(self, help="fabber-qbold", subtitle="Bayesian modelling for qBOLD-MRI %s" % __version__)
